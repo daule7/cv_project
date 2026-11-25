@@ -1,0 +1,345 @@
+=== stage detect ===
+detect: 158857 frames requested, 129850 to process in 131 chunks (stride=1)
+detect: device=mps imgsz=1920 half=True
+detect: 500/129850 frames (0.4%), 36.0 fps, frame 26499, ETA 59.9 min
+detect: 1000/129850 frames (0.8%), 38.1 fps, frame 26999, ETA 56.4 min
+detect: 1500/129850 frames (1.2%), 38.4 fps, frame 27499, ETA 55.7 min
+detect: 2000/129850 frames (1.5%), 38.5 fps, frame 27999, ETA 55.4 min
+detect: 2500/129850 frames (1.9%), 38.9 fps, frame 28499, ETA 54.6 min
+detect: 3000/129850 frames (2.3%), 39.2 fps, frame 28999, ETA 54.0 min
+detect: 3500/129850 frames (2.7%), 39.3 fps, frame 29499, ETA 53.6 min
+detect: 4000/129850 frames (3.1%), 39.3 fps, frame 29999, ETA 53.4 min
+detect: 4500/129850 frames (3.5%), 39.4 fps, frame 30499, ETA 53.0 min
+detect: 5000/129850 frames (3.9%), 39.6 fps, frame 30999, ETA 52.5 min
+detect: 5500/129850 frames (4.2%), 39.7 fps, frame 31499, ETA 52.2 min
+detect: 6000/129850 frames (4.6%), 39.8 fps, frame 31999, ETA 51.9 min
+detect: 6500/129850 frames (5.0%), 39.8 fps, frame 32499, ETA 51.7 min
+detect: 7000/129850 frames (5.4%), 39.9 fps, frame 32999, ETA 51.3 min
+detect: 7500/129850 frames (5.8%), 39.9 fps, frame 33499, ETA 51.2 min
+detect: 8000/129850 frames (6.2%), 39.8 fps, frame 33999, ETA 51.0 min
+detect: 8500/129850 frames (6.5%), 39.8 fps, frame 34499, ETA 50.8 min
+detect: 9000/129850 frames (6.9%), 39.9 fps, frame 34999, ETA 50.5 min
+detect: 9500/129850 frames (7.3%), 39.9 fps, frame 35499, ETA 50.3 min
+detect: 10000/129850 frames (7.7%), 39.9 fps, frame 35999, ETA 50.0 min
+detect: 10500/129850 frames (8.1%), 39.9 fps, frame 36499, ETA 49.9 min
+detect: 11000/129850 frames (8.5%), 39.9 fps, frame 36999, ETA 49.7 min
+detect: 11500/129850 frames (8.9%), 39.8 fps, frame 37499, ETA 49.5 min
+detect: 12000/129850 frames (9.2%), 39.8 fps, frame 37999, ETA 49.3 min
+detect: 12500/129850 frames (9.6%), 39.9 fps, frame 38499, ETA 49.1 min
+detect: 13000/129850 frames (10.0%), 39.9 fps, frame 38999, ETA 48.9 min
+detect: 13500/129850 frames (10.4%), 39.8 fps, frame 39499, ETA 48.7 min
+detect: 14000/129850 frames (10.8%), 39.9 fps, frame 39999, ETA 48.4 min
+detect: 14500/129850 frames (11.2%), 39.9 fps, frame 40499, ETA 48.2 min
+detect: 15000/129850 frames (11.6%), 39.9 fps, frame 40999, ETA 48.0 min
+detect: 15500/129850 frames (11.9%), 39.8 fps, frame 41499, ETA 47.8 min
+detect: 16000/129850 frames (12.3%), 39.8 fps, frame 41999, ETA 47.7 min
+detect: 16500/129850 frames (12.7%), 39.7 fps, frame 42499, ETA 47.5 min
+detect: 17000/129850 frames (13.1%), 39.6 fps, frame 42999, ETA 47.5 min
+detect: 17500/129850 frames (13.5%), 39.6 fps, frame 43499, ETA 47.2 min
+detect: 18000/129850 frames (13.9%), 39.7 fps, frame 43999, ETA 47.0 min
+detect: 18500/129850 frames (14.2%), 39.6 fps, frame 44499, ETA 46.8 min
+detect: 19000/129850 frames (14.6%), 39.6 fps, frame 44999, ETA 46.6 min
+detect: 19500/129850 frames (15.0%), 39.6 fps, frame 45499, ETA 46.4 min
+detect: 20000/129850 frames (15.4%), 39.7 fps, frame 45999, ETA 46.2 min
+detect: 20500/129850 frames (15.8%), 39.7 fps, frame 46499, ETA 45.9 min
+detect: 21000/129850 frames (16.2%), 39.7 fps, frame 46999, ETA 45.7 min
+detect: 21500/129850 frames (16.6%), 39.6 fps, frame 47499, ETA 45.6 min
+detect: 22000/129850 frames (16.9%), 39.7 fps, frame 47999, ETA 45.3 min
+detect: 22500/129850 frames (17.3%), 39.7 fps, frame 48499, ETA 45.0 min
+detect: 23000/129850 frames (17.7%), 39.8 fps, frame 48999, ETA 44.8 min
+detect: 23500/129850 frames (18.1%), 39.8 fps, frame 49499, ETA 44.5 min
+detect: 24000/129850 frames (18.5%), 39.9 fps, frame 49999, ETA 44.2 min
+detect: 24500/129850 frames (18.9%), 39.9 fps, frame 50499, ETA 44.0 min
+detect: 25000/129850 frames (19.3%), 39.9 fps, frame 50999, ETA 43.8 min
+detect: 25500/129850 frames (19.6%), 39.9 fps, frame 51499, ETA 43.6 min
+detect: 26000/129850 frames (20.0%), 39.9 fps, frame 51999, ETA 43.4 min
+detect: 26500/129850 frames (20.4%), 39.9 fps, frame 52499, ETA 43.2 min
+detect: 27000/129850 frames (20.8%), 39.8 fps, frame 52999, ETA 43.1 min
+detect: 27500/129850 frames (21.2%), 39.8 fps, frame 53499, ETA 42.9 min
+detect: 28000/129850 frames (21.6%), 39.8 fps, frame 53999, ETA 42.7 min
+detect: 28500/129850 frames (21.9%), 39.8 fps, frame 54499, ETA 42.5 min
+detect: 29000/129850 frames (22.3%), 39.8 fps, frame 54999, ETA 42.3 min
+detect: 29500/129850 frames (22.7%), 39.8 fps, frame 55499, ETA 42.1 min
+detect: 30000/129850 frames (23.1%), 39.8 fps, frame 55999, ETA 41.8 min
+detect: 30500/129850 frames (23.5%), 39.8 fps, frame 56499, ETA 41.6 min
+detect: 31000/129850 frames (23.9%), 39.8 fps, frame 56999, ETA 41.4 min
+detect: 31500/129850 frames (24.3%), 39.8 fps, frame 57499, ETA 41.2 min
+detect: 32000/129850 frames (24.6%), 39.8 fps, frame 57999, ETA 41.0 min
+detect: 32500/129850 frames (25.0%), 39.8 fps, frame 58499, ETA 40.7 min
+detect: 33000/129850 frames (25.4%), 39.8 fps, frame 58999, ETA 40.6 min
+detect: 33500/129850 frames (25.8%), 39.7 fps, frame 59499, ETA 40.5 min
+detect: 34000/129850 frames (26.2%), 39.7 fps, frame 59999, ETA 40.2 min
+detect: 34500/129850 frames (26.6%), 39.7 fps, frame 60499, ETA 40.1 min
+detect: 35000/129850 frames (27.0%), 39.7 fps, frame 60999, ETA 39.8 min
+detect: 35500/129850 frames (27.3%), 39.7 fps, frame 61499, ETA 39.7 min
+detect: 36000/129850 frames (27.7%), 39.6 fps, frame 61999, ETA 39.5 min
+detect: 36500/129850 frames (28.1%), 39.7 fps, frame 62499, ETA 39.2 min
+detect: 37000/129850 frames (28.5%), 39.7 fps, frame 62999, ETA 39.0 min
+detect: 37500/129850 frames (28.9%), 39.7 fps, frame 63499, ETA 38.8 min
+detect: 38000/129850 frames (29.3%), 39.7 fps, frame 63999, ETA 38.6 min
+detect: 38500/129850 frames (29.6%), 39.7 fps, frame 64499, ETA 38.4 min
+detect: 39000/129850 frames (30.0%), 39.7 fps, frame 64999, ETA 38.1 min
+detect: 39500/129850 frames (30.4%), 39.7 fps, frame 65499, ETA 37.9 min
+detect: 40000/129850 frames (30.8%), 39.7 fps, frame 65999, ETA 37.7 min
+detect: 40500/129850 frames (31.2%), 39.6 fps, frame 66499, ETA 37.6 min
+detect: 41000/129850 frames (31.6%), 39.7 fps, frame 66999, ETA 37.3 min
+detect: 41500/129850 frames (32.0%), 39.7 fps, frame 67499, ETA 37.1 min
+detect: 42000/129850 frames (32.3%), 39.7 fps, frame 67999, ETA 36.9 min
+detect: 42500/129850 frames (32.7%), 39.7 fps, frame 68499, ETA 36.7 min
+detect: 43000/129850 frames (33.1%), 39.7 fps, frame 68999, ETA 36.5 min
+detect: 43500/129850 frames (33.5%), 39.7 fps, frame 69499, ETA 36.3 min
+detect: 44000/129850 frames (33.9%), 39.7 fps, frame 69999, ETA 36.1 min
+detect: 44500/129850 frames (34.3%), 39.7 fps, frame 70499, ETA 35.8 min
+detect: 45000/129850 frames (34.7%), 39.7 fps, frame 70999, ETA 35.6 min
+detect: 45500/129850 frames (35.0%), 39.7 fps, frame 71499, ETA 35.4 min
+detect: 46000/129850 frames (35.4%), 39.7 fps, frame 71999, ETA 35.2 min
+detect: 46500/129850 frames (35.8%), 39.7 fps, frame 72499, ETA 35.0 min
+detect: 47000/129850 frames (36.2%), 39.7 fps, frame 72999, ETA 34.7 min
+detect: 47500/129850 frames (36.6%), 39.7 fps, frame 73499, ETA 34.5 min
+detect: 48000/129850 frames (37.0%), 39.7 fps, frame 73999, ETA 34.3 min
+detect: 48500/129850 frames (37.4%), 39.7 fps, frame 74499, ETA 34.1 min
+detect: 49000/129850 frames (37.7%), 39.8 fps, frame 74999, ETA 33.9 min
+detect: 49500/129850 frames (38.1%), 39.8 fps, frame 75499, ETA 33.7 min
+detect: 50000/129850 frames (38.5%), 39.8 fps, frame 75999, ETA 33.4 min
+detect: 50500/129850 frames (38.9%), 39.8 fps, frame 76499, ETA 33.2 min
+detect: 51000/129850 frames (39.3%), 39.8 fps, frame 76999, ETA 33.0 min
+detect: 51500/129850 frames (39.7%), 39.8 fps, frame 77499, ETA 32.8 min
+detect: 52000/129850 frames (40.0%), 39.8 fps, frame 77999, ETA 32.6 min
+detect: 52500/129850 frames (40.4%), 39.8 fps, frame 78499, ETA 32.4 min
+detect: 53000/129850 frames (40.8%), 39.8 fps, frame 78999, ETA 32.1 min
+detect: 53500/129850 frames (41.2%), 39.8 fps, frame 79499, ETA 31.9 min
+detect: 54000/129850 frames (41.6%), 39.8 fps, frame 79999, ETA 31.7 min
+detect: 54500/129850 frames (42.0%), 39.8 fps, frame 80499, ETA 31.5 min
+detect: 55000/129850 frames (42.4%), 39.8 fps, frame 80999, ETA 31.3 min
+detect: 55500/129850 frames (42.7%), 39.8 fps, frame 81499, ETA 31.1 min
+detect: 56000/129850 frames (43.1%), 39.8 fps, frame 81999, ETA 30.9 min
+detect: 56500/129850 frames (43.5%), 39.8 fps, frame 82499, ETA 30.7 min
+detect: 57000/129850 frames (43.9%), 39.8 fps, frame 82999, ETA 30.5 min
+detect: 57500/129850 frames (44.3%), 39.8 fps, frame 83499, ETA 30.3 min
+detect: 58000/129850 frames (44.7%), 39.8 fps, frame 83999, ETA 30.1 min
+detect: 58500/129850 frames (45.1%), 39.8 fps, frame 84499, ETA 29.9 min
+detect: 59000/129850 frames (45.4%), 39.8 fps, frame 84999, ETA 29.7 min
+detect: 59500/129850 frames (45.8%), 39.8 fps, frame 85499, ETA 29.5 min
+detect: 60000/129850 frames (46.2%), 39.8 fps, frame 85999, ETA 29.2 min
+detect: 60500/129850 frames (46.6%), 39.8 fps, frame 86499, ETA 29.0 min
+detect: 61000/129850 frames (47.0%), 39.8 fps, frame 86999, ETA 28.8 min
+detect: 61500/129850 frames (47.4%), 39.8 fps, frame 87499, ETA 28.6 min
+detect: 62000/129850 frames (47.7%), 39.8 fps, frame 87999, ETA 28.4 min
+detect: 62500/129850 frames (48.1%), 39.8 fps, frame 88499, ETA 28.2 min
+detect: 63000/129850 frames (48.5%), 39.7 fps, frame 88999, ETA 28.0 min
+detect: 63500/129850 frames (48.9%), 39.7 fps, frame 89499, ETA 27.8 min
+detect: 64000/129850 frames (49.3%), 39.8 fps, frame 89999, ETA 27.6 min
+detect: 64500/129850 frames (49.7%), 39.8 fps, frame 90499, ETA 27.4 min
+detect: 65000/129850 frames (50.1%), 39.8 fps, frame 125347, ETA 27.2 min
+detect: 65500/129850 frames (50.4%), 39.8 fps, frame 125847, ETA 27.0 min
+detect: 66000/129850 frames (50.8%), 39.8 fps, frame 126347, ETA 26.7 min
+detect: 66500/129850 frames (51.2%), 39.8 fps, frame 126847, ETA 26.5 min
+detect: 67000/129850 frames (51.6%), 39.8 fps, frame 127347, ETA 26.3 min
+detect: 67500/129850 frames (52.0%), 39.8 fps, frame 127847, ETA 26.1 min
+detect: 68000/129850 frames (52.4%), 39.8 fps, frame 128347, ETA 25.9 min
+detect: 68500/129850 frames (52.8%), 39.8 fps, frame 128847, ETA 25.7 min
+detect: 69000/129850 frames (53.1%), 39.8 fps, frame 129347, ETA 25.5 min
+detect: 69500/129850 frames (53.5%), 39.8 fps, frame 129847, ETA 25.3 min
+detect: 70000/129850 frames (53.9%), 39.8 fps, frame 130347, ETA 25.1 min
+detect: 70500/129850 frames (54.3%), 39.8 fps, frame 130847, ETA 24.9 min
+detect: 71000/129850 frames (54.7%), 39.8 fps, frame 131347, ETA 24.7 min
+detect: 71500/129850 frames (55.1%), 39.8 fps, frame 131847, ETA 24.5 min
+detect: 72000/129850 frames (55.4%), 39.8 fps, frame 132347, ETA 24.2 min
+detect: 72500/129850 frames (55.8%), 39.8 fps, frame 132847, ETA 24.0 min
+detect: 73000/129850 frames (56.2%), 39.8 fps, frame 133347, ETA 23.8 min
+detect: 73500/129850 frames (56.6%), 39.8 fps, frame 133847, ETA 23.6 min
+detect: 74000/129850 frames (57.0%), 39.8 fps, frame 134347, ETA 23.4 min
+detect: 74500/129850 frames (57.4%), 39.8 fps, frame 134847, ETA 23.2 min
+detect: 75000/129850 frames (57.8%), 39.8 fps, frame 135347, ETA 23.0 min
+detect: 75500/129850 frames (58.1%), 39.8 fps, frame 135847, ETA 22.8 min
+detect: 76000/129850 frames (58.5%), 39.8 fps, frame 136347, ETA 22.6 min
+detect: 76500/129850 frames (58.9%), 39.8 fps, frame 136847, ETA 22.4 min
+detect: 77000/129850 frames (59.3%), 39.7 fps, frame 137347, ETA 22.2 min
+detect: 77500/129850 frames (59.7%), 39.7 fps, frame 137847, ETA 22.0 min
+detect: 78000/129850 frames (60.1%), 39.7 fps, frame 138347, ETA 21.8 min
+detect: 78500/129850 frames (60.5%), 39.7 fps, frame 138847, ETA 21.5 min
+detect: 79000/129850 frames (60.8%), 39.7 fps, frame 139347, ETA 21.3 min
+detect: 79500/129850 frames (61.2%), 39.7 fps, frame 139847, ETA 21.1 min
+detect: 80000/129850 frames (61.6%), 39.7 fps, frame 140347, ETA 20.9 min
+detect: 80500/129850 frames (62.0%), 39.7 fps, frame 140847, ETA 20.7 min
+detect: 81000/129850 frames (62.4%), 39.7 fps, frame 141347, ETA 20.5 min
+detect: 81500/129850 frames (62.8%), 39.7 fps, frame 141847, ETA 20.3 min
+detect: 82000/129850 frames (63.1%), 39.7 fps, frame 142347, ETA 20.1 min
+detect: 82500/129850 frames (63.5%), 39.7 fps, frame 142847, ETA 19.9 min
+detect: 83000/129850 frames (63.9%), 39.7 fps, frame 143347, ETA 19.7 min
+detect: 83500/129850 frames (64.3%), 39.7 fps, frame 143847, ETA 19.4 min
+detect: 84000/129850 frames (64.7%), 39.7 fps, frame 144347, ETA 19.2 min
+detect: 84500/129850 frames (65.1%), 39.7 fps, frame 144847, ETA 19.0 min
+detect: 85000/129850 frames (65.5%), 39.7 fps, frame 145347, ETA 18.8 min
+detect: 85500/129850 frames (65.8%), 39.7 fps, frame 145847, ETA 18.6 min
+detect: 86000/129850 frames (66.2%), 39.7 fps, frame 146347, ETA 18.4 min
+detect: 86500/129850 frames (66.6%), 39.7 fps, frame 146847, ETA 18.2 min
+detect: 87000/129850 frames (67.0%), 39.7 fps, frame 147347, ETA 18.0 min
+detect: 87500/129850 frames (67.4%), 39.7 fps, frame 147847, ETA 17.8 min
+detect: 88000/129850 frames (67.8%), 39.7 fps, frame 148347, ETA 17.6 min
+detect: 88500/129850 frames (68.2%), 39.7 fps, frame 148847, ETA 17.4 min
+detect: 89000/129850 frames (68.5%), 39.7 fps, frame 149347, ETA 17.2 min
+detect: 89500/129850 frames (68.9%), 39.7 fps, frame 149847, ETA 16.9 min
+detect: 90000/129850 frames (69.3%), 39.7 fps, frame 150347, ETA 16.7 min
+detect: 90500/129850 frames (69.7%), 39.7 fps, frame 150847, ETA 16.5 min
+detect: 91000/129850 frames (70.1%), 39.7 fps, frame 151347, ETA 16.3 min
+detect: 91500/129850 frames (70.5%), 39.7 fps, frame 151847, ETA 16.1 min
+detect: 92000/129850 frames (70.9%), 39.7 fps, frame 152347, ETA 15.9 min
+detect: 92500/129850 frames (71.2%), 39.6 fps, frame 152847, ETA 15.7 min
+detect: 93000/129850 frames (71.6%), 39.6 fps, frame 153347, ETA 15.5 min
+detect: 93500/129850 frames (72.0%), 39.6 fps, frame 153847, ETA 15.3 min
+detect: 94000/129850 frames (72.4%), 39.6 fps, frame 154347, ETA 15.1 min
+detect: 94500/129850 frames (72.8%), 39.6 fps, frame 154847, ETA 14.9 min
+detect: 95000/129850 frames (73.2%), 39.6 fps, frame 155347, ETA 14.7 min
+detect: 95500/129850 frames (73.5%), 39.6 fps, frame 155847, ETA 14.5 min
+detect: 96000/129850 frames (73.9%), 39.6 fps, frame 156347, ETA 14.2 min
+detect: 96500/129850 frames (74.3%), 39.6 fps, frame 156847, ETA 14.0 min
+detect: 97000/129850 frames (74.7%), 39.6 fps, frame 157347, ETA 13.8 min
+detect: 97500/129850 frames (75.1%), 39.6 fps, frame 157847, ETA 13.6 min
+detect: 98000/129850 frames (75.5%), 39.6 fps, frame 158347, ETA 13.4 min
+detect: 98500/129850 frames (75.9%), 39.6 fps, frame 158847, ETA 13.2 min
+detect: 99000/129850 frames (76.2%), 39.6 fps, frame 159347, ETA 13.0 min
+detect: 99500/129850 frames (76.6%), 39.6 fps, frame 159847, ETA 12.8 min
+detect: 100000/129850 frames (77.0%), 39.6 fps, frame 160347, ETA 12.6 min
+detect: 100500/129850 frames (77.4%), 39.6 fps, frame 160847, ETA 12.3 min
+detect: 101000/129850 frames (77.8%), 39.6 fps, frame 161347, ETA 12.1 min
+detect: 101500/129850 frames (78.2%), 39.6 fps, frame 161847, ETA 11.9 min
+detect: 102000/129850 frames (78.6%), 39.6 fps, frame 162347, ETA 11.7 min
+detect: 102500/129850 frames (78.9%), 39.6 fps, frame 162847, ETA 11.5 min
+detect: 103000/129850 frames (79.3%), 39.6 fps, frame 163347, ETA 11.3 min
+detect: 103500/129850 frames (79.7%), 39.7 fps, frame 163847, ETA 11.1 min
+detect: 104000/129850 frames (80.1%), 39.7 fps, frame 164347, ETA 10.9 min
+detect: 104500/129850 frames (80.5%), 39.7 fps, frame 164847, ETA 10.7 min
+detect: 105000/129850 frames (80.9%), 39.7 fps, frame 165347, ETA 10.4 min
+detect: 105500/129850 frames (81.2%), 39.7 fps, frame 165847, ETA 10.2 min
+detect: 106000/129850 frames (81.6%), 39.7 fps, frame 166347, ETA 10.0 min
+detect: 106500/129850 frames (82.0%), 39.7 fps, frame 166847, ETA 9.8 min
+detect: 107000/129850 frames (82.4%), 39.7 fps, frame 167347, ETA 9.6 min
+detect: 107500/129850 frames (82.8%), 39.7 fps, frame 167847, ETA 9.4 min
+detect: 108000/129850 frames (83.2%), 39.7 fps, frame 168347, ETA 9.2 min
+detect: 108500/129850 frames (83.6%), 39.7 fps, frame 168847, ETA 9.0 min
+detect: 109000/129850 frames (83.9%), 39.7 fps, frame 169347, ETA 8.8 min
+detect: 109500/129850 frames (84.3%), 39.7 fps, frame 169847, ETA 8.5 min
+detect: 110000/129850 frames (84.7%), 39.7 fps, frame 170347, ETA 8.3 min
+detect: 110500/129850 frames (85.1%), 39.7 fps, frame 170847, ETA 8.1 min
+detect: 111000/129850 frames (85.5%), 39.7 fps, frame 171347, ETA 7.9 min
+detect: 111500/129850 frames (85.9%), 39.7 fps, frame 171847, ETA 7.7 min
+detect: 112000/129850 frames (86.3%), 39.7 fps, frame 172347, ETA 7.5 min
+detect: 112500/129850 frames (86.6%), 39.7 fps, frame 172847, ETA 7.3 min
+detect: 113000/129850 frames (87.0%), 39.8 fps, frame 173347, ETA 7.1 min
+detect: 113500/129850 frames (87.4%), 39.8 fps, frame 173847, ETA 6.9 min
+detect: 114000/129850 frames (87.8%), 39.8 fps, frame 174347, ETA 6.6 min
+detect: 114500/129850 frames (88.2%), 39.8 fps, frame 174847, ETA 6.4 min
+detect: 115000/129850 frames (88.6%), 39.8 fps, frame 175347, ETA 6.2 min
+detect: 115500/129850 frames (88.9%), 39.7 fps, frame 175847, ETA 6.0 min
+detect: 116000/129850 frames (89.3%), 39.7 fps, frame 176347, ETA 5.8 min
+detect: 116500/129850 frames (89.7%), 39.7 fps, frame 176847, ETA 5.6 min
+detect: 117000/129850 frames (90.1%), 39.7 fps, frame 177347, ETA 5.4 min
+detect: 117500/129850 frames (90.5%), 39.7 fps, frame 177847, ETA 5.2 min
+detect: 118000/129850 frames (90.9%), 39.7 fps, frame 178347, ETA 5.0 min
+detect: 118500/129850 frames (91.3%), 39.7 fps, frame 178847, ETA 4.8 min
+detect: 119000/129850 frames (91.6%), 39.7 fps, frame 179347, ETA 4.6 min
+detect: 119500/129850 frames (92.0%), 39.7 fps, frame 179847, ETA 4.3 min
+detect: 120000/129850 frames (92.4%), 39.7 fps, frame 180347, ETA 4.1 min
+detect: 120500/129850 frames (92.8%), 39.7 fps, frame 180847, ETA 3.9 min
+detect: 121000/129850 frames (93.2%), 39.6 fps, frame 181347, ETA 3.7 min
+detect: 121500/129850 frames (93.6%), 39.6 fps, frame 181847, ETA 3.5 min
+detect: 122000/129850 frames (94.0%), 39.6 fps, frame 182347, ETA 3.3 min
+detect: 122500/129850 frames (94.3%), 39.6 fps, frame 182847, ETA 3.1 min
+detect: 123000/129850 frames (94.7%), 39.6 fps, frame 183347, ETA 2.9 min
+detect: 123500/129850 frames (95.1%), 39.6 fps, frame 183847, ETA 2.7 min
+detect: 124000/129850 frames (95.5%), 39.7 fps, frame 184347, ETA 2.5 min
+detect: 124500/129850 frames (95.9%), 39.7 fps, frame 184847, ETA 2.2 min
+detect: 125000/129850 frames (96.3%), 39.7 fps, frame 185347, ETA 2.0 min
+detect: 125500/129850 frames (96.6%), 39.7 fps, frame 185847, ETA 1.8 min
+detect: 126000/129850 frames (97.0%), 39.7 fps, frame 186347, ETA 1.6 min
+detect: 126500/129850 frames (97.4%), 39.7 fps, frame 186847, ETA 1.4 min
+detect: 127000/129850 frames (97.8%), 39.7 fps, frame 187347, ETA 1.2 min
+detect: 127500/129850 frames (98.2%), 39.7 fps, frame 187847, ETA 1.0 min
+detect: 128000/129850 frames (98.6%), 39.7 fps, frame 188347, ETA 0.8 min
+detect: 128500/129850 frames (99.0%), 39.7 fps, frame 188847, ETA 0.6 min
+detect: 129000/129850 frames (99.3%), 39.7 fps, frame 189347, ETA 0.4 min
+detect: 129500/129850 frames (99.7%), 39.7 fps, frame 189847, ETA 0.1 min
+detect: 129850/129850 frames (100.0%), 39.7 fps, frame 190197, ETA 0.0 min
+detect: finished 129850 frames in 54.5 min
+=== stage teams ===
+teams: class vote: 6691 tracks -> referee, 1467 -> goalkeeper; 79855 detections relabelled
+teams: KMeans on 60000 player crops; centres Lab = [[119.8, 136.9, 136.0], [190.3, 133.5, 124.5]]; dark cluster 0 -> H
+teams: sample cluster sizes H=28801 A=31199; median relative margin 0.68
+teams: 9375 player tracks, frame-weighted vote purity 0.886
+teams: windowed vote differs from whole-track vote on 0.110 of tracked detections
+teams: half 1: mean x(H)-x(A) = -105.4px over 78607 frames -> H defends the left goal (frames with H left: 0.83)
+teams: half 2: mean x(H)-x(A) = 138.4px over 79135 frames -> A defends the left goal (frames with H left: 0.12)
+teams: goalkeepers: 16083 tracks/detections assigned
+teams: assigned 1949633 H / 1926897 A person detections; unassigned 33432
+=== stage ball ===
+ball: 158857 frames; raw detection conf>=0.25 in 0.662; after filtering detected 0.619, +interpolated 0.084, total with position 0.704
+=== stage possession ===
+features: 158857 frames; median player speed 0.53 h/s (p10 0.31, p90 0.86); median |camera shift| 0.5 px/frame
+possession[baseline]: H 0.388 A 0.326 D 0.286 on processed frames
+possession[hmm]: H 0.416 A 0.280 D 0.304 on processed frames
+=== stage report ===
+Possession summary (method: hmm; frames 11185..190197, processed 158857 frames)
+
+Half 1 (frames 11185..90651, 79467 frames):
+  H  46.2%   A  22.7%   D  31.1%
+  possession H/(H+A) = 67.0%   A/(H+A) = 33.0%
+  possessions: 96 (H 48, A 48), mean length 22.8 s
+
+Half 2 (frames 110808..190197, 79390 frames):
+  H  37.1%   A  33.3%   D  29.6%
+  possession H/(H+A) = 52.7%   A/(H+A) = 47.3%
+  possessions: 101 (H 52, A 49), mean length 22.1 s
+
+Match (158857 frames):
+  H  41.6%   A  28.0%   D  30.4%
+  possession H/(H+A) = 59.8%   A/(H+A) = 40.2%
+  possessions: 197 (H 100, A 97), mean length 22.5 s
+
+=== stage eval ===
+# Evaluation vs correct.csv
+
+Scored frames: 158857 (frames 11185..190197 that are graded; processed frames only).
+Scorer: official `evaluation/possession_metrics.py` from github.com/metrica-sports/more-than-a-hack-2027 (copied to src/vendor/).
+
+| method | accuracy | macro-F1 | spellF1 (mean IoU .3-.7) | spellF1@.5 | F1 H | F1 A | F1 D | alive/dead F1 | team acc (both alive) | home share pred / GT | spells pred / GT | mean spell s pred / GT |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| baseline | 0.651 | 0.645 | 0.256 | 0.250 | 0.710 | 0.564 | 0.660 | 0.798 | 0.810 | 0.543 / 0.594 | 661 / 323 | 6.9 / 10.7 |
+| hmm | 0.712 | 0.701 | 0.242 | 0.238 | 0.734 | 0.620 | 0.750 | 0.846 | 0.813 | 0.598 / 0.594 | 197 / 323 | 22.5 / 10.7 |
+
+## Confusion matrix — baseline (rows = GT, cols = prediction)
+
+| GT \ pred | H | A | D | X |
+|---|---|---|---|---|
+| H | 39985 | 8613 | 2503 | 0 |
+| A | 6547 | 24472 | 3956 | 0 |
+| D | 15073 | 18684 | 39024 | 0 |
+
+spellF1 per IoU: 0.3: 0.388, 0.4: 0.323, 0.5: 0.250, 0.6: 0.183, 0.7: 0.136
+
+## Confusion matrix — hmm (rows = GT, cols = prediction)
+
+| GT \ pred | H | A | D | X |
+|---|---|---|---|---|
+| H | 43013 | 7152 | 936 | 0 |
+| A | 8444 | 24630 | 1901 | 0 |
+| D | 14662 | 12717 | 45402 | 0 |
+
+spellF1 per IoU: 0.3: 0.408, 0.4: 0.312, 0.5: 0.238, 0.6: 0.150, 0.7: 0.100
+
+## Ball visibility on scored frames
+
+- raw detector, ball conf>=0.25 anywhere in frame: 0.662
+- after filtering (accepted detections): 0.619 (GT alive frames 0.768, GT dead 0.443)
+- with position incl. interpolation of gaps <= 0.5 s: 0.704
+
+demo: frame 11185 (0/3751)
+demo: frame 11685 (500/3751)
+demo: frame 12185 (1000/3751)
+demo: frame 12685 (1500/3751)
+demo: frame 13185 (2000/3751)
+demo: frame 13685 (2500/3751)
+demo: frame 14185 (3000/3751)
+demo: frame 14685 (3500/3751)
+demo: wrote /Users/user/Desktop/cv_project/out/demo.mp4
+done in 55.1 min

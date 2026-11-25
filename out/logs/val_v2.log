@@ -1,0 +1,72 @@
+=== stage teams ===
+teams: class vote: 1305 tracks -> referee, 379 -> goalkeeper; 17304 detections relabelled
+teams: KMeans on 60000 player crops; centres Lab = [[112.9, 138.3, 133.2], [186.0, 133.9, 124.6]]; dark cluster 0 -> H
+teams: sample cluster sizes H=29484 A=30516; median relative margin 0.70
+teams: 1805 player tracks, frame-weighted vote purity 0.894
+teams: windowed vote differs from whole-track vote on 0.104 of tracked detections
+teams: half 1: mean x(H)-x(A) = -113.5px over 15000 frames -> H defends the left goal (frames with H left: 0.90)
+teams: half 2: mean x(H)-x(A) = 157.9px over 14935 frames -> A defends the left goal (frames with H left: 0.08)
+teams: goalkeepers: 3204 tracks/detections assigned
+teams: assigned 390621 H / 355092 A person detections; unassigned 6515
+=== stage ball ===
+ball: 30000 frames; raw detection conf>=0.25 in 0.777; after filtering detected 0.729, +interpolated 0.104, total with position 0.833
+=== stage possession ===
+features: 30000 frames; median player speed 0.59 h/s (p10 0.40, p90 0.90); median |camera shift| 0.8 px/frame
+possession[baseline]: H 0.575 A 0.286 D 0.139 on processed frames
+possession[hmm]: H 0.571 A 0.246 D 0.183 on processed frames
+=== stage report ===
+Possession summary (method: hmm; frames 11185..125807, processed 30000 frames)
+
+Half 1 (frames 11185..26184, 15000 frames):
+  H  64.8%   A  24.0%   D  11.2%
+  possession H/(H+A) = 72.9%   A/(H+A) = 27.1%
+  possessions: 22 (H 13, A 9), mean length 24.2 s
+
+Half 2 (frames 110808..125807, 15000 frames):
+  H  49.3%   A  25.2%   D  25.5%
+  possession H/(H+A) = 66.2%   A/(H+A) = 33.8%
+  possessions: 24 (H 14, A 10), mean length 18.6 s
+
+Match (30000 frames):
+  H  57.1%   A  24.6%   D  18.3%
+  possession H/(H+A) = 69.9%   A/(H+A) = 30.1%
+  possessions: 46 (H 27, A 19), mean length 21.3 s
+
+=== stage eval ===
+# Evaluation vs correct.csv
+
+Scored frames: 30000 (frames 11185..125807 that are graded; processed frames only).
+Scorer: official `evaluation/possession_metrics.py` from github.com/metrica-sports/more-than-a-hack-2027 (copied to src/vendor/).
+
+| method | accuracy | macro-F1 | spellF1 (mean IoU .3-.7) | spellF1@.5 | F1 H | F1 A | F1 D | alive/dead F1 | team acc (both alive) | home share pred / GT | spells pred / GT | mean spell s pred / GT |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| baseline | 0.670 | 0.629 | 0.282 | 0.273 | 0.763 | 0.619 | 0.507 | 0.862 | 0.830 | 0.668 / 0.674 | 127 / 56 | 8.1 / 15.0 |
+| hmm | 0.729 | 0.705 | 0.365 | 0.392 | 0.789 | 0.635 | 0.689 | 0.902 | 0.822 | 0.699 / 0.674 | 46 / 56 | 21.3 / 15.0 |
+
+## Confusion matrix — baseline (rows = GT, cols = prediction)
+
+| GT \ pred | H | A | D | X |
+|---|---|---|---|---|
+| H | 11996 | 1816 | 380 | 0 |
+| A | 1620 | 4775 | 471 | 0 |
+| D | 3641 | 1978 | 3323 | 0 |
+
+spellF1 per IoU: 0.3: 0.404, 0.4: 0.372, 0.5: 0.273, 0.6: 0.197, 0.7: 0.164
+
+## Confusion matrix — hmm (rows = GT, cols = prediction)
+
+| GT \ pred | H | A | D | X |
+|---|---|---|---|---|
+| H | 12357 | 1657 | 178 | 0 |
+| A | 1998 | 4527 | 341 | 0 |
+| D | 2766 | 1203 | 4973 | 0 |
+
+spellF1 per IoU: 0.3: 0.510, 0.4: 0.431, 0.5: 0.392, 0.6: 0.275, 0.7: 0.216
+
+## Ball visibility on scored frames
+
+- raw detector, ball conf>=0.25 anywhere in frame: 0.777
+- after filtering (accepted detections): 0.729 (GT alive frames 0.801, GT dead 0.558)
+- with position incl. interpolation of gaps <= 0.5 s: 0.833
+
+done in 0.1 min

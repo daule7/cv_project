@@ -1,0 +1,16 @@
+Possession summary (method: hmm; frames 11185..190197, processed 158857 frames)
+
+Half 1 (frames 11185..90651, 79467 frames):
+  H  46.2%   A  22.7%   D  31.1%
+  possession H/(H+A) = 67.0%   A/(H+A) = 33.0%
+  possessions: 96 (H 48, A 48), mean length 22.8 s
+
+Half 2 (frames 110808..190197, 79390 frames):
+  H  37.1%   A  33.3%   D  29.6%
+  possession H/(H+A) = 52.7%   A/(H+A) = 47.3%
+  possessions: 101 (H 52, A 49), mean length 22.1 s
+
+Match (158857 frames):
+  H  41.6%   A  28.0%   D  30.4%
+  possession H/(H+A) = 59.8%   A/(H+A) = 40.2%
+  possessions: 197 (H 100, A 97), mean length 22.5 s
